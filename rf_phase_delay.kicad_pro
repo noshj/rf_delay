@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "octal_var_phase_delay.kicad_pro",
+    "filename": "rf_phase_delay.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -398,6 +398,10 @@
     [
       "574f3c58-ac93-4375-8028-ee8fae8d1e20",
       "DAC"
+    ],
+    [
+      "b936a7d1-b085-43b0-86db-791bac1b02bc",
+      "pwr"
     ]
   ],
   "text_variables": {}
