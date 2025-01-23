@@ -32,16 +32,8 @@
 		(uuid "2d572a18-82a3-470f-b0a8-12889d0afefd")
 	)
 	(no_connect
-		(at 153.67 46.99)
-		(uuid "345612d0-d704-4171-bfca-afc1e9d2e1ee")
-	)
-	(no_connect
 		(at 153.67 77.47)
 		(uuid "55202f60-0af8-47ac-99b1-988b1f918e4b")
-	)
-	(no_connect
-		(at 153.67 52.07)
-		(uuid "610ac016-e293-431a-b087-d9b1bbf585ab")
 	)
 	(no_connect
 		(at 153.67 69.85)
@@ -54,10 +46,6 @@
 	(no_connect
 		(at 153.67 62.23)
 		(uuid "8e1676b8-6551-4a94-af81-78e1d7f70869")
-	)
-	(no_connect
-		(at 153.67 49.53)
-		(uuid "a290b550-db71-4a35-ad73-a7c683b4c69c")
 	)
 	(no_connect
 		(at 153.67 54.61)
@@ -83,6 +71,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 31.75) (xy 254 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ae496e-f97f-401f-928a-285d6da00fbc")
+	)
+	(wire
+		(pts
 			(xy 38.1 127) (xy 25.4 127)
 		)
 		(stroke
@@ -103,7 +101,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 153.67 49.53)
+			(xy 152.4 49.53) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -243,7 +241,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 52.07) (xy 153.67 52.07)
+			(xy 152.4 52.07) (xy 247.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -303,7 +301,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 153.67 46.99)
+			(xy 152.4 46.99) (xy 196.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -413,6 +411,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 52.07) (xy 247.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b037de12-c9d2-4ff6-a883-75dcd9439d41")
+	)
+	(wire
+		(pts
 			(xy 152.4 77.47) (xy 153.67 77.47)
 		)
 		(stroke
@@ -463,6 +471,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 31.75) (xy 203.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdf2440-38cf-4a3a-bd48-acb6c9570e5d")
+	)
+	(wire
+		(pts
 			(xy 177.8 31.75) (xy 171.45 31.75)
 		)
 		(stroke
@@ -483,6 +501,36 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 46.99) (xy 196.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc431f65-1627-4e23-9236-6f2fc1186256")
+	)
+	(wire
+		(pts
+			(xy 223.52 49.53) (xy 223.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0cf11e-6e48-4d7e-988b-39c5ed73c0ed")
+	)
+	(wire
+		(pts
+			(xy 223.52 31.75) (xy 228.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1625454-0967-4406-acfb-179f25478353")
+	)
+	(wire
+		(pts
 			(xy 25.4 50.8) (xy 38.1 50.8)
 		)
 		(stroke
@@ -490,6 +538,55 @@
 			(type default)
 		)
 		(uuid "fa6f8b39-8566-47c0-a110-9f9b43113d5a")
+	)
+	(sheet
+		(at 203.2 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "0f0533f4-d180-4ed8-9424-23195e82ca6e")
+		(property "Sheetname" "PS1"
+			(at 203.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_chan.kicad_sch"
+			(at 203.2 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VBIAS" input
+			(at 203.2 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5415235c-2a29-4fa9-9adb-a73612d127a0")
+		)
+		(instances
+			(project "rf_phase_delay"
+				(path "/ecfae643-93f7-4320-971e-1a2690f71d35"
+					(page "6")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 177.8 25.4)
@@ -519,6 +616,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "VBIAS" input
@@ -535,6 +633,55 @@
 			(project "rf_phase_delay"
 				(path "/ecfae643-93f7-4320-971e-1a2690f71d35"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "2d74023a-2323-4fc1-8bab-d3e11b26f0ac")
+		(property "Sheetname" "PS2"
+			(at 228.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_chan.kicad_sch"
+			(at 228.6 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VBIAS" input
+			(at 228.6 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b522e520-116e-4d75-97ae-97363697beee")
+		)
+		(instances
+			(project "rf_phase_delay"
+				(path "/ecfae643-93f7-4320-971e-1a2690f71d35"
+					(page "7")
 				)
 			)
 		)
@@ -823,6 +970,55 @@
 			(project "rf_phase_delay"
 				(path "/ecfae643-93f7-4320-971e-1a2690f71d35"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "645aa295-5e72-4638-9c47-5b786baba833")
+		(property "Sheetname" "PS3"
+			(at 254 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_chan.kicad_sch"
+			(at 254 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VBIAS" input
+			(at 254 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de72f00f-9272-4ba1-9330-ba1d23df5955")
+		)
+		(instances
+			(project "rf_phase_delay"
+				(path "/ecfae643-93f7-4320-971e-1a2690f71d35"
+					(page "8")
 				)
 			)
 		)
